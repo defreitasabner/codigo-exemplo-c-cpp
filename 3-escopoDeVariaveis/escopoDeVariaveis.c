@@ -11,8 +11,9 @@ int main() {
     // Executando a função vinda do arquivo de cabeçalho (header)
     funcaoDeExemplo();
 
-    // Como essa variável está dentro da função, não poderia ser acessada, isso daria ERRO
-    print(variavelEmEscopoLocal); // ERRO: essa variável não existe no escopo global
+    // Como essa variável está dentro da funçãoDeExemplo, ela só pode ser acessada dentro dessa função
+    // Como não poderíamos acessá-la de fora da função, isso daria ERRO, como ocorre abaixo:
+    printl(variavelEmEscopoLocal); // ERRO: essa variável não existe no escopo global
     
     return 0;
 }
