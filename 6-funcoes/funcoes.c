@@ -1,5 +1,5 @@
 // importando funções e tudo mais que tiver no arquivo <funcoes.h>
-#include <4-funcoes/funcoes.h>
+#include <6-funcoes/funcoes.h>
 
 int main() {
 
