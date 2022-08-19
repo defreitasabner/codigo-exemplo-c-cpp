@@ -5,13 +5,17 @@ Arquivos C (extensão -> .c):
     - Execução do código principal (main())
 */
 
-// Importando o arquivo de cabeçalho, isso inclui qualquer função ou variável declarada nele
+// Incluindo abeçalho para saída e entrada de dados no console
+#include <iostream>
+using namespace std; // usando o namespace para reduzir a quantidade de código escrito
+
+// Incluindo nosso arquivo de cabeçalho, isso inclui qualquer função ou variável declarada nele
 #include <1-extensoesDeArquivos/exemplo.h>
 
 int main() {
 
-    // Exibindo no console a variáavel importada do 'arquivo de cabeçalho'
-    printl(variavelDeclaradaNoArquivoDeCabecalho);
+    // Exibindo no console a variável importada do 'arquivo de cabeçalho'
+    cout << variavelDeclaradaNoArquivoDeCabecalho;
 
     // Executa a função declara no 'arquivo de cabeçalho' importado
     funcaoDeclaradaNoArquivoDeCabecalho();
