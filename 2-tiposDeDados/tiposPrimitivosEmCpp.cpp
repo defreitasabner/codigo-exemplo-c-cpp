@@ -24,7 +24,7 @@ int main() {
 
         // bool -> booleano, lógico / 1 byte
         bool verdadeiro = true;
-        bool falso = falso;
+        bool falso = false;
 
         // void -> vazio, sem retorno / -
         void funcaoDeExemplo();
