@@ -11,11 +11,13 @@ int main() {
 
     // Declarando constantes:
 
+        // Por convenção, constantes são escritas em letra maiúsculas e snake_case
+
         // Precisa de um valor inicial para ser declarada
-        const int constanteGuardandoUmNumeroInteiro = 32;
+        const int CONSTANTE_GUARDANDO_NUMERO_INTEIRO = 32;
 
         // Impossível declarar sem atribuir um valor inicial
-        const char constanteDeclaradaSemValorInicial; // ERRO
+        const char CONSTANTE_SENDO_DECLARADA_SEM_VALOR_INICIAL; // ERRO
 
     // Alterando valores de variáveis:
         
@@ -28,7 +30,7 @@ int main() {
         variavelGuardandoUmaLetra = 84;
     
     // Alterando valor de uma constante - ERRO
-    constanteGuardandoUmNumeroInteiro = 64; // Impossível reatribuir o valor de uma constante
+    CONSTANTE_GUARDANDO_NUMERO_INTEIRO = 64; // Impossível reatribuir o valor de uma constante
     
     return 0;
 }
